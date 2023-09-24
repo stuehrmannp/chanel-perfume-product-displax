@@ -11,26 +11,97 @@ p {
 }
 
 .content-wrapper {
-    width: auto;
+    max-width: 680px;
     height: 520px;
+    position:absolute;
+    top: 20%;
+    left: 32%;
     display: flex;
-    border: 1px solid red;
-    position: relative;
-    margin-top: 10em;
-    margin-left: 47em;
+    background-color: white;
+    border-radius: 6px;
 }
 
 .image-roundup {
     width: 53%;
     background-image: url('img/image-product-desktop.jpg');
     background-size:cover;
-    border: 1px solid black;
     display: block;
-    border-radius: 5px;
 }
 
 .content-section {
     width: 47%;
     height: auto;
-    background-color: white;
+    margin: 20px;
+    padding-right: 38px;
+    padding-left:10px;
+}
+
+.price-section {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    padding-bottom: 30px;
+}
+
+h3.price {
+    font-family: 'Croissant One', 'Times New Roman', Times, serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 40px;
+    padding-right: 20px;
+    letter-spacing: 2px;
+    margin:0;
+   
+}
+
+p.discounted-price {
+    text-decoration:line-through;
+    font-weight: bold;
+}
+/* Font Styles and stuff */
+h1 {
+    font-family: 'Gloock', 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin: 0;
+    color: hsl(212, 21%, 14%);
+    line-height: 40px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
+
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 6px;
+    font-size: 14px;
+    margin: 0;
+    color: hsl(228, 12%, 48%);
+}
+
+p {
+    font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 27px;
+    font-size: 18px;
+    color: hsl(228, 12%, 48%);
+
+}
+
+/* Button Section */
+button {
+    width: 100%;
+    padding: 15px 27px;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+button i {
+    padding-right: 10px;
+    
 }
