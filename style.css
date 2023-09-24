@@ -1,0 +1,36 @@
+body {
+    width: 1440px;
+    height: 100%;
+    background-color:  hsl(30, 38%, 92%);
+    box-sizing: border-box;
+
+}
+
+p {
+    font-size: 14px;
+}
+
+.content-wrapper {
+    width: auto;
+    height: 520px;
+    display: flex;
+    border: 1px solid red;
+    position: relative;
+    margin-top: 10em;
+    margin-left: 47em;
+}
+
+.image-roundup {
+    width: 53%;
+    background-image: url('img/image-product-desktop.jpg');
+    background-size:cover;
+    border: 1px solid black;
+    display: block;
+    border-radius: 5px;
+}
+
+.content-section {
+    width: 47%;
+    height: auto;
+    background-color: white;
+}
