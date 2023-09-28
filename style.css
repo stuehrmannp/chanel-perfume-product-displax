@@ -1,6 +1,6 @@
 body {
     width: 1440px;
-    height: 100%;
+    height: 1080px;
     background-color:  hsl(30, 38%, 92%);
     box-sizing: border-box;
 
@@ -12,29 +12,31 @@ p {
 }
 
 .content-wrapper {
-    max-width: 680px;
-    height: 520px;
+    width: 760px;
+    height: 580px;
     position:absolute;
     top: 20%;
     left: 30%;
     right: 30%;
     display: flex;
     background-color: white;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 .image-roundup {
-    width: 53%;
+    width: 25em;
     background-image: url('img/image-product-desktop.jpg');
     background-size:cover;
     display: block;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .content-section {
     width: 47%;
     height: auto;
     margin: 20px;
-    padding-right: 38px;
+    padding-right: 10px;
     padding-left:10px;
     padding-top: 20px;
 }
@@ -43,7 +45,7 @@ p {
     display: flex;
     align-items: center;
     margin-top: 0;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 h3.price {
@@ -84,13 +86,14 @@ p {
     line-height: 27px;
     font-size: 18px;
     color: hsl(228, 12%, 48%);
+    margin-top:32px;
 
 }
 
 /* Button Section */
 button {
     width: 100%;
-    padding: 15px 27px;
+    padding: 25px 27px;
     background-color: hsl(158, 36%, 37%);
     border: none;
     border-radius: 7px;
@@ -101,6 +104,7 @@ button {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 button i {
