@@ -16,7 +16,8 @@ p {
     height: 520px;
     position:absolute;
     top: 20%;
-    left: 32%;
+    left: 30%;
+    right: 30%;
     display: flex;
     background-color: white;
     border-radius: 6px;
@@ -92,7 +93,7 @@ button {
     padding: 15px 27px;
     background-color: hsl(158, 36%, 37%);
     border: none;
-    border-radius: 5px;
+    border-radius: 7px;
     color: white;
     display: flex;
     align-items: center;
@@ -116,5 +117,59 @@ button:hover {
 /* Media Queries - Responsiveness */
 
 @media screen and (max-width: 375px) {
+    body {
+        width: 375px;
+        height: auto;
+    }
     
+    .content-wrapper {
+        margin-top: 25px;
+        margin-left:10px;
+        margin-right:10px;
+        height: auto;
+        top:0;
+        left:0;
+        right: 0;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .content-section {
+        width: 85%;
+        height: auto;
+        margin-left: 15px;
+        margin-top:10px;
+        /* padding-right: 38px; */
+        padding-left: 8px;
+        padding-top: 20px;
+    }
+
+    .image-roundup {
+        height: 17em;
+        width: 100%;
+        background-image: url("./img/image-product-mobile.jpg");
+        background-size: cover;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+   h1 {
+        font-family: 'Fraunces', serif;
+        font-size: 28px;
+        color: hsl(212, 21%, 14%);
+        line-height: 30px;
+        padding-top: 20px;
+    }
+
+    .content-text p {
+        font-size: 14px;
+    }
+
+    .price-section {
+        padding-bottom: 7px;
+    }
+
+    .price-section h3 {
+        font-size: 32px;
+    }
 }
